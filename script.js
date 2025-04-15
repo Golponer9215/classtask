@@ -15,3 +15,14 @@ let user2 = {
 }
 Object.assign(user1,user2)
 console.log(Object.assign(user1,user2));
+
+
+// number2
+let car={
+brand:" BMW",
+speed:"200km/hr",
+price:"$20000",
+model:2025
+}
+let values=Object.values(car)
+console.log(values)
